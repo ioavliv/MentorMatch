@@ -1,0 +1,85 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+h4{
+    margin-top: 2rem!important;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    width: 100%;
+}
+
+.Mentor, .Mentee{
+    width: 100%;
+}
+
+.Mentee{
+    display: flex;
+    justify-content: space-around;
+}
+
+.answered-questions{
+    width: 50%;
+}
+
+.answered-questions div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.answered-questions .question{
+    width: 60%;
+}
+.answered-questions .answer{
+    width: 40%;
+}
+
+.question-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.question{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.answer{
+    margin-top: 1rem;
+}
+
+#logout{
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 0px 0px;
+}
